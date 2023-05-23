@@ -500,6 +500,7 @@ section:nth-child(even){
        padding: 2rem; 
     }
     section{
+        overflow:hidden;
         padding: 2rem;
     }
 }
@@ -512,6 +513,7 @@ section:nth-child(even){
         display: initial;
     }
     .header .navbar{
+        overflow:hidden;
         position: absolute;
         top: 115%; right: 2rem;
         border-radius: .5rem;
