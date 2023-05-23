@@ -16,6 +16,9 @@
     transition: all .3s ease-out;
     text-decoration: none;
 }
+body{
+    overflow-X:hidden
+}
 html{
     font-size: 62.5%;
    
@@ -487,6 +490,9 @@ section:nth-child(even){
 
 /* media queries */
 @media(max-width:991px){
+    body{
+        overflow-X:hidden
+    }
     html{
         font-size: 55%;
     }
@@ -499,6 +505,9 @@ section:nth-child(even){
 }
 
 @media(max-width:768px){
+     body{
+        overflow-X:hidden
+    }
     #menu-btn{
         display: initial;
     }
@@ -527,6 +536,9 @@ section:nth-child(even){
     }
 }
 @media(max-width:450px){
+     body{
+        overflow-X:hidden
+    }
     html{
         font-size: 50%;
     }
